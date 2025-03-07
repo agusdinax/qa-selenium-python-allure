@@ -17,7 +17,6 @@ def pytest_addoption(parser):
         help="Type of browser: chrome, firefox, edge, safari",
     )
 
-
 @pytest.fixture(scope="session")
 def browser(request):
     browser_type = request.config.getoption("--browser").lower()
@@ -34,7 +33,6 @@ def browser(request):
         driver = webdriver.Safari()
     else:
         raise ValueError(f"Browser {browser_type} not supported")
-
     yield driver
     driver.quit()
 
