@@ -1,3 +1,20 @@
+<div id="header" align="center">
+  <div id="badges">
+    <a>
+     <img src="https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=Python&logoColor=white" alt="Python Badge"/>
+    </a>
+    <a>
+      <img src="https://img.shields.io/badge/Pytest-red?style=for-the-badge&logo=Pytest&logoColor=white" alt="Pytest Badge"/>
+    </a>
+    <a>
+      <img src="https://img.shields.io/badge/Selenium-green?style=for-the-badge&logo=Selenium&logoColor=white" alt="Selenium Badge"/>
+    </a>
+    <a>
+      <img src="https://img.shields.io/badge/Allure-blue?style=for-the-badge&logo=Allure&logoColor=white" alt="Allure Badge"/>
+    </a>
+    </div>
+</div>
+    
 # 🐍 Selenium Automation Project with Pytest & Allure
 
 ## 🌐 English Version
